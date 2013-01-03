@@ -13,6 +13,11 @@
 		328EF4D2156605CE00A42452 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 328EF4D0156605CE00A42452 /* Credits.rtf */; };
 		328EF4D5156605CE00A42452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 328EF4D4156605CE00A42452 /* AppDelegate.m */; };
 		328EF4D8156605CE00A42452 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328EF4D6156605CE00A42452 /* MainMenu.xib */; };
+		328EF4E0156606DE00A42452 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 328EF4DF156606DE00A42452 /* MainScreen.m */; };
+		328EF608156A905D00A42452 /* Encryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 328EF603156A905D00A42452 /* Encryptor.m */; };
+		328EF609156A905D00A42452 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 328EF605156A905D00A42452 /* NSData+CommonCrypto.m */; };
+		328EF60A156A905D00A42452 /* NSData+HexConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328EF607156A905D00A42452 /* NSData+HexConversion.m */; };
+		328EF617156AB26F00A42452 /* Lock-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 328EF616156AB26F00A42452 /* Lock-icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +26,23 @@
 		328EF4C4156605CE00A42452 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		328EF4C5156605CE00A42452 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		328EF4C6156605CE00A42452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		328EF4C9156605CE00A42452 /* FileEncryptor-Info.plist */ = {isa = PBXFileReference; path = "FileEncryptor-Info.plist"; sourceTree = "<group>"; };
+		328EF4C9156605CE00A42452 /* FileEncryptor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileEncryptor-Info.plist"; sourceTree = "<group>"; };
 		328EF4CB156605CE00A42452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		328EF4CD156605CE00A42452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		328EF4CF156605CE00A42452 /* FileEncryptor-Prefix.pch */ = {isa = PBXFileReference; path = "FileEncryptor-Prefix.pch"; sourceTree = "<group>"; };
+		328EF4CF156605CE00A42452 /* FileEncryptor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileEncryptor-Prefix.pch"; sourceTree = "<group>"; };
 		328EF4D1156605CE00A42452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		328EF4D3156605CE00A42452 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		328EF4D3156605CE00A42452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		328EF4D4156605CE00A42452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		328EF4D7156605CE00A42452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		328EF4DE156606DE00A42452 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		328EF4DF156606DE00A42452 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		328EF602156A905D00A42452 /* Encryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encryptor.h; sourceTree = "<group>"; };
+		328EF603156A905D00A42452 /* Encryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encryptor.m; sourceTree = "<group>"; };
+		328EF604156A905D00A42452 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		328EF605156A905D00A42452 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		328EF606156A905D00A42452 /* NSData+HexConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HexConversion.h"; sourceTree = "<group>"; };
+		328EF607156A905D00A42452 /* NSData+HexConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexConversion.m"; sourceTree = "<group>"; };
+		328EF616156AB26F00A42452 /* Lock-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Lock-icon.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,7 @@
 		328EF4B2156605CE00A42452 = {
 			isa = PBXGroup;
 			children = (
+				328EF616156AB26F00A42452 /* Lock-icon.icns */,
 				328EF4C7156605CE00A42452 /* FileEncryptor */,
 				328EF4C0156605CE00A42452 /* Frameworks */,
 				328EF4BE156605CE00A42452 /* Products */,
@@ -82,9 +97,12 @@
 		328EF4C7156605CE00A42452 /* FileEncryptor */ = {
 			isa = PBXGroup;
 			children = (
+				328EF601156A905D00A42452 /* Encryptor */,
 				328EF4D3156605CE00A42452 /* AppDelegate.h */,
 				328EF4D4156605CE00A42452 /* AppDelegate.m */,
 				328EF4D6156605CE00A42452 /* MainMenu.xib */,
+				328EF4DE156606DE00A42452 /* MainScreen.h */,
+				328EF4DF156606DE00A42452 /* MainScreen.m */,
 				328EF4C8156605CE00A42452 /* Supporting Files */,
 			);
 			path = FileEncryptor;
@@ -100,6 +118,19 @@
 				328EF4D0156605CE00A42452 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		328EF601156A905D00A42452 /* Encryptor */ = {
+			isa = PBXGroup;
+			children = (
+				328EF602156A905D00A42452 /* Encryptor.h */,
+				328EF603156A905D00A42452 /* Encryptor.m */,
+				328EF604156A905D00A42452 /* NSData+CommonCrypto.h */,
+				328EF605156A905D00A42452 /* NSData+CommonCrypto.m */,
+				328EF606156A905D00A42452 /* NSData+HexConversion.h */,
+				328EF607156A905D00A42452 /* NSData+HexConversion.m */,
+			);
+			path = Encryptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +186,7 @@
 				328EF4CC156605CE00A42452 /* InfoPlist.strings in Resources */,
 				328EF4D2156605CE00A42452 /* Credits.rtf in Resources */,
 				328EF4D8156605CE00A42452 /* MainMenu.xib in Resources */,
+				328EF617156AB26F00A42452 /* Lock-icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +199,10 @@
 			files = (
 				328EF4CE156605CE00A42452 /* main.m in Sources */,
 				328EF4D5156605CE00A42452 /* AppDelegate.m in Sources */,
+				328EF4E0156606DE00A42452 /* MainScreen.m in Sources */,
+				328EF608156A905D00A42452 /* Encryptor.m in Sources */,
+				328EF609156A905D00A42452 /* NSData+CommonCrypto.m in Sources */,
+				328EF60A156A905D00A42452 /* NSData+HexConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FileEncryptor/FileEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "FileEncryptor/FileEncryptor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,6 +299,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FileEncryptor/FileEncryptor-Prefix.pch";
 				INFOPLIST_FILE = "FileEncryptor/FileEncryptor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +324,7 @@
 				328EF4DD156605CE00A42452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
